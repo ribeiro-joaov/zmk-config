@@ -19,7 +19,6 @@
     chain-length = <72>;
 };
 /
-``1
 {
 
    // Activate ADJUST layer by pressing raise and lower
