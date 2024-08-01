@@ -17,10 +17,7 @@
 #define RAISE 2
 #define ADJUST 3
 
-&led_strip {
-    chain-length = <72>;
-};
-/
+&led_strip { chain-length = <72>; };
 
 / {
     // Activate ADJUST layer by pressing raise and lower
