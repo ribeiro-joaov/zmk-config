@@ -10,14 +10,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/rgb.h>
 
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
-
-&led_strip { chain-length = <72>; };
 
 / {
     // Activate ADJUST layer by pressing raise and lower
